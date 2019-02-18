@@ -5,7 +5,7 @@
 * Gradient Descent
 
 ## Linear Regression?
-![Mean Squared Error (MSE)](./README/img/LinearRegression.JPG)
+![Mean Squared Error (MSE)](MLlibrary/README/img/LinearRegression.JPG)
 * 선형회귀
 * 어떠한 현상에 대한 데이터값이 선형적인 상관관계를 보이면 이를 대표하는 모델을 구하는 방법
 * 모델의 형태는 y = wx + b
