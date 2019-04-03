@@ -8,4 +8,7 @@ import tensorflow as tf
 
 def mse(model,y):
     return tf.reduce_mean(tf.square(model-y))
+
+def cross_entropy(model,y):
+    return tf.reduce_mean(-y * tf.log(model) - (1-y)* tf.log(1-model))
     
