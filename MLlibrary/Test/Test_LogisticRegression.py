@@ -30,7 +30,8 @@ model = lr(cost_function = 'cross_entropy', optimizer = 'gradient descent', epoc
 model.fit(train_x, train_y)
 
 result = model.predict(test_x)
-
+a = np.asarray(result).reshape([-1,1])
+b = ['correct' for x, y in zip(a, test_y) if x==y]
 '''
 import tensorflow as tf
 with tf.Session() as sess:
